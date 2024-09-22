@@ -19,7 +19,13 @@
 }
 
 .forecast-item {
-    background-color: #09153d;
+  font-size: x-large;
+  margin: 2%;
+  background-color: transparent;
+  border: 2px solid snow;
+  border-radius: 10px;
+  padding: 1px;
+  background-color: #09153d;
   display: inline-block;
   width: 18%;
   text-align: center;
@@ -28,6 +34,10 @@
 }
 .forecast-item:last-child {
   margin-right: 0;
+}
+
+.forecast-item > h6{
+  font-size: x-large;
 }
 
 .navbar {
@@ -42,20 +52,19 @@
 }
 
 .menu-icon {
+  margin-right: 800px;
   background-color: #111e4e;
   font-size: 1.5rem;
   cursor: pointer;
-  margin-right: 1rem;
 }
 
 .navbar-title {
-
+  
   background-color: #111e4e;
   font-size: 1.2rem;
 }
 
-.menu-list {
-  
+.menu-list { 
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -63,8 +72,11 @@
 }
 
 .menu-list li {
+  font-size: large;
+  display: inline-flex;
   background-color: #111e4e;
   padding: 1rem;
+  
 }
 
 .menu-list li a {
@@ -90,8 +102,10 @@ input[type="checkbox"]:checked + .menu-list {
   font-family: 'Poppins', sans-serif;
 }
 
-h5 {
-  font-size: 100%;
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45%;
 }
 
 footer {
@@ -105,27 +119,76 @@ footer > p {
   background-color: #111e4e;
 }
 
+.Query {
+  font-size: x-large;
+  padding-left: 35%;
+}
+
+.Query > input {
+  padding: 2px;
+  background-color: #111e4e; /* Couleur de fond */
+  border: none; /* Retirer les bordures */
+  color: white; /* Couleur du texte */
+  padding: 15px 30px; /* Espacement interne (padding) */
+  text-align: center; /* Aligner le texte */
+  text-decoration: none; /* Retirer soulignement */
+  display: inline-block; /* Pour le mettre en ligne avec d'autres éléments */
+  font-size: 30px; /* Taille du texte */
+  font-family: 'Arial', sans-serif; /* Police de caractères */
+  font-weight: bold; /* Texte en gras */
+  border-radius: 10px; /* Bordures arrondies */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Ombre autour du bouton */
+  cursor: pointer; /* Curseur type "main" */
+  transition: all 0.3s ease-in-out; /* Transition fluide pour hover */
+}
+
+.Query > button {
+  margin-left: 10px;
+  background-color: snow; /* Couleur de fond */
+  border: none; /* Retirer les bordures */
+  color: #111e4e; /* Couleur du texte */
+  padding: 15px 30px; /* Espacement interne (padding) */
+  text-align: center; /* Aligner le texte */
+  text-decoration: none; /* Retirer soulignement */
+  display: inline-block; /* Pour le mettre en ligne avec d'autres éléments */
+  font-size: 25px; /* Taille du texte */
+  font-family: 'Arial', sans-serif; /* Police de caractères */
+  font-weight: bold; /* Texte en gras */
+  border-radius: 30px; /* Bordures arrondies */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Ombre autour du bouton */
+  cursor: pointer; /* Curseur type "main" */
+  transition: all 0.3s ease-in-out; /* Transition fluide pour hover */
+}
 
 footer > p  a{
   background-color: #111e4e;
 }
 
-.card {
+.Card {
   background-color: transparent;
-  border: 2px solid #111e4e;
+  border: 2px solid snow;
   border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1px;
 }
 
-.card-title {
+.Card-title {
   color: #7727c0;
 }
 
-.card-text {
+.Card-text {
+  font-size: x-large;
+  padding-top: 20px;
+  padding-left: 30%;
   color: white;
 }
 
-.card-group {
-  background-color: #111e4e;
+.weather-info{
+  font-size: x-large;
+  background-color: transparent;
+  border: 2px solid snow;
+  border-radius: 10px;
+  padding: 1px;
+  padding-top: 5px;
+  padding-left: 30%;
+  padding-bottom: 5px;
 }

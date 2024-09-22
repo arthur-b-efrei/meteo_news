@@ -52,9 +52,9 @@ const Direct = () => {
 
   return (
     <div id="Direct" className="Direct">
-      <h5>En direct</h5>
+      <h2>En direct</h2>
       <br />
-      <form id="weatherForm" onSubmit={handleSubmit}>
+      <form id="weatherForm" className="Query" onSubmit={handleSubmit}>
         <input
           type="text"
           id="city"
@@ -66,7 +66,7 @@ const Direct = () => {
       </form>
       <br />
       <div className="weather-info">
-        <div>
+        <div className="Weather-card">
           <p>
             Ville : <span id="cityName">{cityName}</span>
           </p>

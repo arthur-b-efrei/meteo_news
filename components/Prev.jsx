@@ -26,7 +26,7 @@ const Prev = () => {
 
   return (
     <div id="Previsions" className="Previsions">
-      <h5>Prévisions</h5>
+      <h2>Prévisions</h2>
       <div id="forecast">
         {forecastData ? (
           forecastData.map((forecast) => {
